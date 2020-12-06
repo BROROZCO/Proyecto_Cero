@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "Projecto-Cero"
+  "defaultProject": "Projecto-Cero",
+  "cli": {
+    "analytics": false
+  }
 }
