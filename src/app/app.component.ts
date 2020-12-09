@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Projecto-Cero';
+  // Uso de interpolacion
+  Nombre = 'Bryan Orozco';
+
+  constructor(){
+    // Actualizar la variable Nombre y poner en MIGUEL
+    setInterval( ()=> this.Nombre = 'Miguel', 3000 );
+  }
+
+  getSuma(numero1: number, numero2: number)
+  {
+    return numero1 + numero2
+  }
 }
