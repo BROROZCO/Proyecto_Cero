@@ -9,10 +9,13 @@ export class AppComponent {
   // Uso de interpolacion
   Nombre = 'Bryan Orozco';
   textoPlaceholder = "Escriba algo aqui!";
+  deshabilitado = true;
+  imgLink = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png";
 
   constructor(){
     // Actualizar la variable Nombre y poner en MIGUEL
-    setInterval( ()=> this.Nombre = 'Miguel', 3000 );
+    // setInterval( ()=> this.Nombre = 'Miguel', 3000 );
+    setInterval( ()=> this.deshabilitado = false , 3000 );
   }
 
   getSuma(numero1: number, numero2: number)
