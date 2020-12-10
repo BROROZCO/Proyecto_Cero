@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   // Uso de interpolacion
   Nombre = 'Bryan Orozco';
+  textoPlaceholder = "Escriba algo aqui!";
 
   constructor(){
     // Actualizar la variable Nombre y poner en MIGUEL
