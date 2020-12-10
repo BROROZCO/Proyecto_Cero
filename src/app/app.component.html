@@ -5,9 +5,17 @@
             La suma de 15 + 10 = {{  getSuma(15,10)  }}
         </h3>
         <br>
-        <!-- Properti Binding 'interpolacion' su uso es para los atributos  [atributo] = "variable del backend" -->
+        <!-- Properti Binding 'interpolacion' su uso es para los atributos  [atributo] = "variable del backen" -->
         <input type="text" class="form-control" [placeholder]="textoPlaceholder" [disabled] = "deshabilitado">
         <br>
-        <img [src]="imgLink" alt="img" width="400px">
+        <!-- <img [src]="imgLink" alt="img" width="400px"> -->
     </div>
+    <br>
+    <!-- Event Binding interpolacion -->
+    <h3>{{ texto }}</h3>
+    <br>
+    <!-- Se usa la directiva Click -->
+    <button class="btn btn-primary" (click) = "cambiarTexto()" >Clic ME!</button>
+
+
 </div>

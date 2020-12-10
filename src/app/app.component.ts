@@ -12,6 +12,8 @@ export class AppComponent {
   deshabilitado = true;
   imgLink = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png";
 
+  texto = "Esta es una practica de Event Binding";
+
   constructor(){
     // Actualizar la variable Nombre y poner en MIGUEL
     // setInterval( ()=> this.Nombre = 'Miguel', 3000 );
@@ -22,4 +24,10 @@ export class AppComponent {
   {
     return numero1 + numero2
   }
+
+  cambiarTexto(): void{
+    this.texto = "El miercoles sin falta"
+  }
+
+
 }
