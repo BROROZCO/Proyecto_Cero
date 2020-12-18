@@ -13,6 +13,8 @@ export class AppComponent {
   imgLink = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png";
 
   texto = "Esta es una practica de Event Binding";
+  // Variable para la practica del two way data binding
+  texto_ = "";
 
   constructor(){
     // Actualizar la variable Nombre y poner en MIGUEL

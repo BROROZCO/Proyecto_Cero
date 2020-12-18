@@ -16,6 +16,11 @@
     <br>
     <!-- Se usa la directiva Click -->
     <button class="btn btn-primary" (click) = "cambiarTexto()" >Clic ME!</button>
+    <br>
+    <!-- Uso del two way data binding -->
+    <input type="" class="form-control" placeholder="Write thing here!" [(ngModel)] = "texto_">
+    <br>
+    {{ texto_ }}
 
 
 </div>
